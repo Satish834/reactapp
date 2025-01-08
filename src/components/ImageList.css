@@ -1,0 +1,44 @@
+.image-list {
+  text-align: center;
+  padding: 20px;
+  background-color: #87CEEB; /* Light Blue background */
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+}
+
+.image-item {
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #0000FF; /* Blue border */
+  border-radius: 15px;
+  background-color: #FFFFFF; /* White background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  max-width: 300px;
+  text-align: left;
+}
+
+.image-item:hover {
+  transform: scale(1.05);
+}
+
+img {
+  width: 100%; /* Make the image take the full width of the container */
+  height: auto; /* Maintain the aspect ratio */
+  border-radius: 10px;
+}
+
+h2 {
+  color: #000080; /* Navy color */
+}
+
+p {
+  color: #000080; /* Navy color */
+  font-family: 'Arial', sans-serif;
+  font-weight: bold; /* Bold text */
+  margin: 5px 0; /* Add some spacing between paragraphs */
+}
+
+strong {
+  color: #000080; /* Navy color */
+}
